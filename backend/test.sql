@@ -26,10 +26,16 @@ CREATE TABLE IF NOT EXISTS `books` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- Dumping data for table `books`
+-- INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
+-- (1, 'MultiCloud', 'this is mutlicloud with devops cource by veera sir nareshit ', 2343.2, 'https://docs.multy.dev/assets/images/multi-cloud-314609adeec670988dff0882a93fdcb0.png'),
+-- (2, 'DevOps', 'if you understand the devops it is very easy', 2342.3, 'https://media.licdn.com/dms/image/v2/D5612AQHsA9dJVtZRdw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730826289071?e=2147483647&v=beta&t=JGr0gJH6RE9b1Dk7nHAYF14Kmv96Gm519UOy_rSa3xE'),
+-- (3, 'MultiCloud', 'this is mutlicloud with devops cource by veera sir nareshit ', 2343.2, 'https://www.svgrepo.com/show/448266/aws.svg');
+
 INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
-(1, 'MultiCloud', 'this is mutlicloud with devops cource by veera sir nareshit ', 2343.2, 'https://docs.multy.dev/assets/images/multi-cloud-314609adeec670988dff0882a93fdcb0.png'),
-(2, 'DevOps', 'if you understand the devops it is very easy', 2342.3, 'https://media.licdn.com/dms/image/v2/D5612AQHsA9dJVtZRdw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730826289071?e=2147483647&v=beta&t=JGr0gJH6RE9b1Dk7nHAYF14Kmv96Gm519UOy_rSa3xE'),
-(3, 'MultiCloud', 'this is mutlicloud with devops cource by veera sir nareshit ', 2343.2, 'https://www.svgrepo.com/show/448266/aws.svg');
+(1, 'AWS Cloud Solutions', 'Master EC2, S3, and VPC with hands-on DevOps integration. \nLearn industry-standard CI/CD pipelines and cloud security. \nExpert-led training by Veera Sir at NareshIT.', 2343.2, 'https://www.svgrepo.com/show/448266/aws.svg'),
+(2, 'Microsoft Azure Admin', 'Build scalable infrastructure using Azure Virtual Machines. \nImplement enterprise-level identity management and networking. \nComprehensive Cloud Roadmap by Veera Sir at NareshIT.', 2342.3, 'https://www.svgrepo.com/show/353464/azure.svg'),
+(3, 'Google Cloud Platform', 'Deploy modern applications using Kubernetes and App Engine. \nFocus on high-availability and cost-optimized cloud solutions. \nAdvanced MultiCloud session by Veera Sir at NareshIT.', 2343.2, 'https://www.svgrepo.com/show/448223/gcp.svg');
+
 
 -- Add primary key for the books table
 ALTER TABLE `books`
